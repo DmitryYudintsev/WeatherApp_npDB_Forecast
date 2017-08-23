@@ -50,7 +50,6 @@ class DetailTableViewController: UITableViewController {
             [weak self]  weatherList in
             //self?.weatherList = weatherList
             detail.textLabel?.text = "\(weatherList[indexPath.row].temperature)°C and \(weatherList[indexPath.row].humidity)% \(weatherList[indexPath.row].weather)"
-            //detail.detailTextLabel?.text = "\(weatherList[indexPath.row].dt_txt)"
             //====================================================================================================================
             //вывод даты
             let date = Date.init(timeIntervalSince1970: weatherList[indexPath.row].unixDate)
