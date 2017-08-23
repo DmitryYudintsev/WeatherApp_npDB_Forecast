@@ -7,21 +7,37 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		C69E9A281A4FC164813185C8 /* Pods_SwiftJsonLesson.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3E3E3A9D01E9C922B2CFE9F9 /* Pods_SwiftJsonLesson.framework */; };
+		C8094BFB1F34D26F003FDA2C /* WeatherListClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = C8094BFA1F34D26F003FDA2C /* WeatherListClass.swift */; };
+		C80B357C1F302A59002708E7 /* DetailTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C80B357B1F302A59002708E7 /* DetailTableViewController.swift */; };
+		C811AD4A1F28F8E100A6D96A /* ManagerData.swift in Sources */ = {isa = PBXBuildFile; fileRef = C811AD491F28F8E100A6D96A /* ManagerData.swift */; };
 		C81518A51F2493B0006CE795 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C81518A41F2493B0006CE795 /* AppDelegate.swift */; };
-		C81518A71F2493B0006CE795 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C81518A61F2493B0006CE795 /* ViewController.swift */; };
 		C81518AA1F2493B0006CE795 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C81518A81F2493B0006CE795 /* Main.storyboard */; };
 		C81518AC1F2493B0006CE795 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C81518AB1F2493B0006CE795 /* Assets.xcassets */; };
 		C81518AF1F2493B0006CE795 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C81518AD1F2493B0006CE795 /* LaunchScreen.storyboard */; };
+		C81518B91F249810006CE795 /* Podfile in Resources */ = {isa = PBXBuildFile; fileRef = C81518B81F249810006CE795 /* Podfile */; };
+		C81518BB1F249AFD006CE795 /* SwiftyJSON.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C81518BA1F249AFD006CE795 /* SwiftyJSON.framework */; };
+		C81518BF1F249E94006CE795 /* TableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C81518BE1F249E94006CE795 /* TableViewController.swift */; };
+		C8165C851F42E13A00FCE7E8 /* TableViewController1.swift in Sources */ = {isa = PBXBuildFile; fileRef = C8165C841F42E13A00FCE7E8 /* TableViewController1.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		11BBC1F9C0DCEF8B7F39BDEB /* Pods-SwiftJsonLesson.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SwiftJsonLesson.release.xcconfig"; path = "Pods/Target Support Files/Pods-SwiftJsonLesson/Pods-SwiftJsonLesson.release.xcconfig"; sourceTree = "<group>"; };
+		3E3E3A9D01E9C922B2CFE9F9 /* Pods_SwiftJsonLesson.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SwiftJsonLesson.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		66D66D2F93FA64FCBBD30A45 /* Pods-SwiftJsonLesson.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SwiftJsonLesson.debug.xcconfig"; path = "Pods/Target Support Files/Pods-SwiftJsonLesson/Pods-SwiftJsonLesson.debug.xcconfig"; sourceTree = "<group>"; };
+		C8094BFA1F34D26F003FDA2C /* WeatherListClass.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WeatherListClass.swift; sourceTree = "<group>"; };
+		C80B357B1F302A59002708E7 /* DetailTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DetailTableViewController.swift; sourceTree = "<group>"; };
+		C811AD491F28F8E100A6D96A /* ManagerData.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ManagerData.swift; sourceTree = "<group>"; };
 		C81518A11F2493B0006CE795 /* SwiftJsonLesson.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SwiftJsonLesson.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C81518A41F2493B0006CE795 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		C81518A61F2493B0006CE795 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		C81518A91F2493B0006CE795 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		C81518AB1F2493B0006CE795 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		C81518AE1F2493B0006CE795 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		C81518B01F2493B0006CE795 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C81518B81F249810006CE795 /* Podfile */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Podfile; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		C81518BA1F249AFD006CE795 /* SwiftyJSON.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SwiftyJSON.framework; path = "../../../Library/Developer/Xcode/DerivedData/SwiftJsonLesson-azwujcaculqxmxanwaybkdqyksfr/Build/Products/Debug-iphonesimulator/SwiftyJSON/SwiftyJSON.framework"; sourceTree = "<group>"; };
+		C81518BE1F249E94006CE795 /* TableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TableViewController.swift; sourceTree = "<group>"; };
+		C8165C841F42E13A00FCE7E8 /* TableViewController1.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TableViewController1.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -29,17 +45,31 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C81518BB1F249AFD006CE795 /* SwiftyJSON.framework in Frameworks */,
+				C69E9A281A4FC164813185C8 /* Pods_SwiftJsonLesson.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		A80189BA6398CDB21841C25D /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				66D66D2F93FA64FCBBD30A45 /* Pods-SwiftJsonLesson.debug.xcconfig */,
+				11BBC1F9C0DCEF8B7F39BDEB /* Pods-SwiftJsonLesson.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 		C81518981F2493B0006CE795 = {
 			isa = PBXGroup;
 			children = (
+				C81518B81F249810006CE795 /* Podfile */,
 				C81518A31F2493B0006CE795 /* SwiftJsonLesson */,
 				C81518A21F2493B0006CE795 /* Products */,
+				A80189BA6398CDB21841C25D /* Pods */,
+				E972802360DFC2BA3EFD55B4 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -55,13 +85,26 @@
 			isa = PBXGroup;
 			children = (
 				C81518A41F2493B0006CE795 /* AppDelegate.swift */,
-				C81518A61F2493B0006CE795 /* ViewController.swift */,
+				C81518BE1F249E94006CE795 /* TableViewController.swift */,
+				C80B357B1F302A59002708E7 /* DetailTableViewController.swift */,
+				C811AD491F28F8E100A6D96A /* ManagerData.swift */,
+				C8094BFA1F34D26F003FDA2C /* WeatherListClass.swift */,
 				C81518A81F2493B0006CE795 /* Main.storyboard */,
+				C8165C841F42E13A00FCE7E8 /* TableViewController1.swift */,
 				C81518AB1F2493B0006CE795 /* Assets.xcassets */,
 				C81518AD1F2493B0006CE795 /* LaunchScreen.storyboard */,
 				C81518B01F2493B0006CE795 /* Info.plist */,
 			);
 			path = SwiftJsonLesson;
+			sourceTree = "<group>";
+		};
+		E972802360DFC2BA3EFD55B4 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				C81518BA1F249AFD006CE795 /* SwiftyJSON.framework */,
+				3E3E3A9D01E9C922B2CFE9F9 /* Pods_SwiftJsonLesson.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -71,9 +114,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = C81518B31F2493B0006CE795 /* Build configuration list for PBXNativeTarget "SwiftJsonLesson" */;
 			buildPhases = (
+				FCC3D5E71A729F008830FD47 /* [CP] Check Pods Manifest.lock */,
 				C815189D1F2493B0006CE795 /* Sources */,
 				C815189E1F2493B0006CE795 /* Frameworks */,
 				C815189F1F2493B0006CE795 /* Resources */,
+				EE971EBF48909702F183CC69 /* [CP] Embed Pods Frameworks */,
+				713FA6750EE64C7F4523557B /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -92,7 +138,7 @@
 			attributes = {
 				LastSwiftUpdateCheck = 0830;
 				LastUpgradeCheck = 0830;
-				ORGANIZATIONNAME = "Дмитрий Ю";
+				ORGANIZATIONNAME = "";
 				TargetAttributes = {
 					C81518A01F2493B0006CE795 = {
 						CreatedOnToolsVersion = 8.3.3;
@@ -125,19 +171,72 @@
 			files = (
 				C81518AF1F2493B0006CE795 /* LaunchScreen.storyboard in Resources */,
 				C81518AC1F2493B0006CE795 /* Assets.xcassets in Resources */,
+				C81518B91F249810006CE795 /* Podfile in Resources */,
 				C81518AA1F2493B0006CE795 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		713FA6750EE64C7F4523557B /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-SwiftJsonLesson/Pods-SwiftJsonLesson-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		EE971EBF48909702F183CC69 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-SwiftJsonLesson/Pods-SwiftJsonLesson-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		FCC3D5E71A729F008830FD47 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		C815189D1F2493B0006CE795 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C81518A71F2493B0006CE795 /* ViewController.swift in Sources */,
+				C80B357C1F302A59002708E7 /* DetailTableViewController.swift in Sources */,
+				C8165C851F42E13A00FCE7E8 /* TableViewController1.swift in Sources */,
+				C8094BFB1F34D26F003FDA2C /* WeatherListClass.swift in Sources */,
 				C81518A51F2493B0006CE795 /* AppDelegate.swift in Sources */,
+				C81518BF1F249E94006CE795 /* TableViewController.swift in Sources */,
+				C811AD4A1F28F8E100A6D96A /* ManagerData.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -258,24 +357,33 @@
 		};
 		C81518B41F2493B0006CE795 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 66D66D2F93FA64FCBBD30A45 /* Pods-SwiftJsonLesson.debug.xcconfig */;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEVELOPMENT_TEAM = "";
 				INFOPLIST_FILE = SwiftJsonLesson/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = Home.SwiftJsonLesson;
+				PRODUCT_BUNDLE_IDENTIFIER = "Home.WeatherAPP-v2";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_VERSION = 3.0;
 			};
 			name = Debug;
 		};
 		C81518B51F2493B0006CE795 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 11BBC1F9C0DCEF8B7F39BDEB /* Pods-SwiftJsonLesson.release.xcconfig */;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEVELOPMENT_TEAM = "";
 				INFOPLIST_FILE = SwiftJsonLesson/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = Home.SwiftJsonLesson;
+				PRODUCT_BUNDLE_IDENTIFIER = "Home.WeatherAPP-v2";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_VERSION = 3.0;
 			};
 			name = Release;
@@ -299,6 +407,7 @@
 				C81518B51F2493B0006CE795 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

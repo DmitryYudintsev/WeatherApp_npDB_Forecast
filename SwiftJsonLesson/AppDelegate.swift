@@ -2,9 +2,7 @@
 //  AppDelegate.swift
 //  SwiftJsonLesson
 //
-//  Created by Дмитрий Ю on 23.07.17.
-//  Copyright © 2017 Дмитрий Ю. All rights reserved.
-//
+
 
 import UIKit
 
